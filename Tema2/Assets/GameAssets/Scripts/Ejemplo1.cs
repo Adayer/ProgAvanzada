@@ -12,17 +12,21 @@ public class Ejemplo1 : MonoBehaviour
     }
 }
 
-
-public struct VectorTres //: otra clase/struct-> Daria error porque los struct no pueden heredar de clases o estructuras
+public struct VectorDos
 {
     public float x;
     public float y;
+}
+
+public struct VectorTres //: otra clase/struct-> Daria error porque los struct no pueden heredar de clases o estructuras
+{
+    public VectorDos coor;    
     public float z;
 
     public VectorTres(float x, float y, float z)//tienen que estar todas las variables
     {
-        this.x = x;
-        this.y = y;
+        coor.x = x;
+        coor.y = y;
         this.z = z;
     }
 }
