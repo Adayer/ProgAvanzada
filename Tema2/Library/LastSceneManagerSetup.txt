@@ -1,5 +1,6 @@
 sceneSetups:
-- path: Assets/GameAssets/Scenes/Tema2.unity
+- path: C:/Users/andres.perez/Desktop/Prog repo/Rep/ProgAvanzada/PA-Tema 2-Ejercicio
+    Inventario/Assets/GameAssets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
