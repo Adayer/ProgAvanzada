@@ -56,7 +56,7 @@ namespace Inventarios {
         private void Start()
         {
             AddRandomItems(10);
-            //bag[2].cost = 100000; //Si se usa la propiedad cost correctamente el máximo se quedaría en 999
+            bag[2].cost = 100000; //Si se usa la propiedad cost correctamente el máximo se quedaría en 999
         }
 
         void ShowItem(Item item)
